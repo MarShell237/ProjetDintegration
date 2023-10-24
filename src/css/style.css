@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(235,235,235);
+}
+
+.header{
+    display: flex;
+    background-color: rgb(40, 56, 71);
+    height: 50px;
+}
+
+.marques{
+    display: flex;
+    flex-wrap: inherit;
+}
+
+.univers{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+
+.titre{
+    color: rgb(48, 55, 65);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin: 10px;
+}
+
+.logo-Cdiscount--svg {
+    height: 46px;
+    width: 145px;
+    margin-right: 20px;
+}
+
+.search .search-bar,.search .search-button{
+    height: 20px;
+} 
+
+.search .search-bar{
+    width: 400px;
+}
+
+.search .search-button,.search .search-button svg{
+    width: 30px;
+    height: 30px;
+}
+
+.button-header{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 5px;
+}
+
+.button-header-in{
+    color: white;
+    margin: 5px;
+    font-size: x-small;
+}
+
+.marque{
+    display: flex;
+    margin: 5px;
+    height: 242px;
+    width: 192px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-size: contain;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.univer{
+    display: flex;
+    
+    margin: 5px;
+    height: 242px;
+    width: 192px;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-size: contain;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
