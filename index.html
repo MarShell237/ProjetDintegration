@@ -5,7 +5,7 @@
         <title>
             Clonnage du css de Cdiscount
         </title>
-        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="header">
@@ -15,36 +15,84 @@
                 <button class="search-button" type="submit">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
                         <path d="M 20.5 6 C 12.509634 6 6 12.50964 6 20.5 C 6 28.49036 12.509634 35 20.5 35 C 23.956359 35 27.133709 33.779044 29.628906 31.75 L 39.439453 41.560547 A 1.50015 1.50015 0 1 0 41.560547 39.439453 L 31.75 29.628906 C 33.779044 27.133709 35 23.956357 35 20.5 C 35 12.50964 28.490366 6 20.5 6 z M 20.5 9 C 26.869047 9 32 14.130957 32 20.5 C 32 23.602612 30.776198 26.405717 28.791016 28.470703 A 1.50015 1.50015 0 0 0 28.470703 28.791016 C 26.405717 30.776199 23.602614 32 20.5 32 C 14.130953 32 9 26.869043 9 20.5 C 9 14.130957 14.130953 9 20.5 9 z"></path>
-                        </svg>
+                    </svg>
                 </button>
             </form>
-            <p class="button-header">Cdiscount<br><em class="button-header-in">a volonte</em></p>
-            <p class="button-header">Mon compte<em class="button-header-in">Identifiez-vous</em></p>
-            <p class="button-header">Panier<em class="button-header-in">0 article</em></p>
+            <div class="block-button-header">
+                <p class="button-header">Cdiscount<br><em class="button-header-in">a volonte</em></p>
+                <p class="button-header">Mon compte<em class="button-header-in">Identifiez-vous</em></p>
+                <p class="button-header">Panier<em class="button-header-in">0 article</em></p>
+            </div>
         </div>
          
         <p class="titre">Les plus grandes marques</p>
         
         <div class="marques">
-            <div class="marque" style="background-image: url(./../../images/include/marques/Electrolux.jpeg);"></div>
-            <div class="marque" style="background-image: url(./../../images/include/marques/apple.jpeg);"></div>
-            <div class="marque" style="background-image: url(./../../images/include/marques/ps5.jpeg);"></div>
-            <div class="marque" style="background-image: url(./../../images/include/marques/nintendo_switch.jpeg);"></div>
-            <div class="marque" style="background-image: url(./../../images/include/marques/disnaey_plus.jpeg);"></div>
-            <div class="marque" style="background-image: url(./../../images/include/marques/dodo.jpeg);"></div>
-            <div class="marque" style="background-image: url(./../../images/include/marques/invicta.jpeg);"></div>
+            <div class="marque" style="background-image: url(Electrolux.jpeg);"></div>
+            <div class="marque" style="background-image: url(apple.jpeg);"></div>
+            <div class="marque" style="background-image: url(ps5.jpeg);"></div>
+            <div class="marque" style="background-image: url(nintendo_switch.jpeg);"></div>
+            <div class="marque" style="background-image: url(disnaey_plus.jpeg);"></div>
+            <div class="marque" style="background-image: url(dodo.jpeg);"></div>
+            <div class="marque" style="background-image: url(invicta.jpeg);"></div>
         </div>
         <p class="titre">Nos univers</p>
         <div class="univers">
-            <div class="univer"><img src="./../../images/include/univers/vin.jpeg" alt="" style="border-radius: 50px;height: 100px;width: 100px;"></div>
-            <div class="univer"><img src="./../../images/include/univers/deco_meubles.jpeg" alt="" style="border-radius: 50px;height: 100px;width: 100px;"></div>
-            <div class="univer"><img src="./../../images/include/univers/litterie.jpeg" alt="" style="border-radius: 50px;height: 100px;width: 100px;"></div>
-            <div class="univer"><img src="./../../images/include/univers/informatique.jpeg" alt="" style="border-radius: 50px;height: 100px;width: 100px;"></div>
-            <div class="univer"><img src="./../../images/include/univers/tv-son-photo.jpeg" alt="" style="border-radius: 50px;height: 100px;width: 100px;"></div>
-            <div class="univer"><img src="./../../images/include/univers/telephone.jpeg" alt="" style="border-radius: 50px;height: 100px;width: 100px;"></div>
-            <div class="univer"><img src="./../../images/include/univers/jeux_video.jpeg" alt="" style="border-radius: 50px;height: 100px;width: 100px;"></div>
-            <div class="univer"><img src="./../../images/include/univers/mode.jpeg" alt="" style="border-radius: 50px;height: 100px;width: 100px;"></div>
-            <div class="univer"><img src="./../../images/include/univers/auto-moto.jpeg" alt="" style="border-radius: 50px;height: 100px;width: 100px;"></div>
+            <div class="univer">
+                <img src="vin.jpeg" alt="" class="img-univer">
+                <p class="detail-univer-head">Vin - Epicerie</p>
+                <p class="detail-univer">Rouge</p>
+                <p class="detail-univer">Blanc</p>
+                <p class="detail-univer">Rose</p>
+            </div>
+            <div class="univer"><img src="deco_meubles.jpeg" alt="" class="img-univer">
+                <p class="detail-univer-head">Meuble - Deco</p>
+                <p class="detail-univer">Style</p>
+                <p class="detail-univer">Decoration</p>
+                <p class="detail-univer">Canape</p>
+            </div>
+            <div class="univer"><img src="litterie.jpeg" alt="" class="img-univer">
+                <p class="detail-univer-head">Literrie</p>
+                <p class="detail-univer">Ensemble Matelas + so</p>
+                <p class="detail-univer">Matelas</p>
+                <p class="detail-univer">Sommier</p>
+            </div>
+            <div class="univer"><img src="informatique.jpeg" alt="" class="img-univer">
+                <p class="detail-univer-head">Informatique</p>
+                <p class="detail-univer">Gaming</p>
+                <p class="detail-univer">Ordinateur Portable</p>
+                <p class="detail-univer">Tablette</p>
+            </div>
+            <div class="univer"><img src="tv-son-photo.jpeg" alt="" class="img-univer">
+                <p class="detail-univer-head">Tv - Son - Photo</p>
+                <p class="detail-univer">Televiseur</p>
+                <p class="detail-univer">Home Cinema</p>
+                <p class="detail-univer">Casque Audio</p>
+            </div>
+            <div class="univer"><img src="telephone.jpeg" alt="" class="img-univer">
+                <p class="detail-univer-head">Telephone</p>
+                <p class="detail-univer">iPhone</p>
+                <p class="detail-univer">Samsung</p>
+                <p class="detail-univer">Reconditionne</p>
+            </div>
+            <div class="univer"><img src="jeux_video.jpeg" alt="" class="img-univer">
+                <p class="detail-univer-head">Jeux Video</p>
+                <p class="detail-univer">PS4</p>
+                <p class="detail-univer">XBOX ONE</p>
+                <p class="detail-univer">Nintendo Switch</p>
+            </div>
+            <div class="univer"><img src="mode.jpeg" alt="" class="img-univer">
+                <p class="detail-univer-head">Mode - Sport</p>
+                <p class="detail-univer">Modele Femme</p>
+                <p class="detail-univer">Modele Homme</p>
+                <p class="detail-univer">Mode bebe - Enfant</p>
+            </div>
+            <div class="univer"><img src="auto-moto.jpeg" alt="" class="img-univer">
+                <p class="detail-univer-head">Auto - Moto</p>
+                <p class="detail-univer">Mobilite Urbaine</p>
+                <p class="detail-univer">Vehicule</p>
+                <p class="detail-univer">Pneu Auto</p>
+            </div>
         </div>
       
     </body>
